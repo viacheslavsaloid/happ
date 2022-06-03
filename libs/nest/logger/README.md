@@ -49,8 +49,10 @@ export class UsersController {}
 
 ## Decorators
 
-- `@Logger(config: Partial<ILoggerConfig>)` - for specific config class or method
-  ```typescript
+- `@Logger(config: Partial<ILoggerConfig>)` - for specific config
+  
+
+- ```typescript
   import {Logger} from "@happ/nest-logger";
   
   @Injectable()
@@ -59,9 +61,16 @@ export class UsersController {}
   @Logger({ debug: true })
   getMany() {}
   ```
+  
   ![](https://github.com/viacheslavsaloid/happ/blob/main/image-2.png?raw=true)
+
+
 - `@Debug` - shortcut for `@Logger({ debug: true })`
+
+
 - `@Disable` - shortcut for `@Logger({ disable: true })`
+
+
 - `@DisableArguments` - shortcut for `@Logger({ disableArguments: true })`
   ```typescript
   import {DisableArguments, Logger} from "@happ/nest-logger";
@@ -72,5 +81,6 @@ export class UsersController {}
   @DisableArguments
   getMany() {}
   ```
+
   ![](https://github.com/viacheslavsaloid/happ/blob/main/image-3.png?raw=true)
 
