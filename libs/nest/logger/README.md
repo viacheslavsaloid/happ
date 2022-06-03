@@ -1,5 +1,7 @@
 ### @happ/nest-logger
 
+> Beta. Don't use it in production (yet).
+
 ## Description
 Simple in setup and flexible in usage logger with full path logs
 
