@@ -3,7 +3,7 @@
 ## Description
 Simple in setup and flexible in usage logger with full path logs
 
-![](../../../../../../../../var/folders/yw/gd_byxn54h1gk_bl0_g9vlhc0000gn/T/TemporaryItems/NSIRD_screencaptureui_8JqN0K/Screenshot 2022-06-04 at 00.26.27.png)
+![](https://github.com/viacheslavsaloid/happ/blob/main/image-1.png?raw=true)
 
 ## Installation
 `yarn add @happ/nest-logger`
@@ -57,7 +57,7 @@ export class UsersController {}
   @Logger({ debug: true })
   getMany() {}
   ```
-  ![](../../../../../../../../var/folders/yw/gd_byxn54h1gk_bl0_g9vlhc0000gn/T/TemporaryItems/NSIRD_screencaptureui_EQq9wm/Screenshot 2022-06-04 at 00.35.19.png)
+  ![](https://github.com/viacheslavsaloid/happ/blob/main/image-2.png?raw=true)
 - `@Debug` - shortcut for `@Logger({ debug: true })`
 - `@Disable` - shortcut for `@Logger({ disable: true })`
 - `@DisableArguments` - shortcut for `@Logger({ disableArguments: true })`
@@ -70,4 +70,5 @@ export class UsersController {}
   @DisableArguments
   getMany() {}
   ```
-  ![](../../../../../../../../var/folders/yw/gd_byxn54h1gk_bl0_g9vlhc0000gn/T/TemporaryItems/NSIRD_screencaptureui_Y4Cit9/Screenshot 2022-06-04 at 00.38.06.png)
+  ![](https://github.com/viacheslavsaloid/happ/blob/main/image-3.png?raw=true)
+
