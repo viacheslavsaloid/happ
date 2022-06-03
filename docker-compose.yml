@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  nest-logger-database:
+    image: postgres:latest
+    container_name: nest-logger-database
+    environment:
+      POSTGRES_USER: 'postgres'
+      POSTGRES_PASSWORD: 'postgres'
+      POSTGRES_DB: 'nest-logger'
+    ports:
+      - "5435:5432"
+    expose:
+      - "5435"
+    volumes:
+      - nest-logger-database:/var/lib/postgres
+volumes:
+  nest-logger-database:

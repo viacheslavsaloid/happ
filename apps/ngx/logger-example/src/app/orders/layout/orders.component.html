@@ -1,0 +1,12 @@
+<h1>Orders</h1>
+
+<form (ngSubmit)="createOrder(name)">
+  <input type="text" [(ngModel)]="name" name="name">
+  <button>Добавить</button>
+</form>
+
+<ul>
+  <li *ngFor="let order of orders$ | async">
+    {{ order.name }}
+  </li>
+</ul>
