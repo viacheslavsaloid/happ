@@ -2,7 +2,7 @@ import {Injectable} from '@nestjs/common';
 import { InjectRepository } from "@nestjs/typeorm";
 import { Repository } from "typeorm";
 import { UserEntity } from './user.entity';
-import {DisableArguments, Logger} from "@happ/nest-logger";
+import {Debug, DisableArguments, Logger} from "@happ/nest-logger";
 
 @Injectable()
 export class UsersService {
